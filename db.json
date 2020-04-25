@@ -13,7 +13,16 @@
         "location": "Meow Town",
         "date": "2020-01-03",
         "time": "2:00 PM",
-        "attendees": ["Mahesh Cheemalapati"]
+        "attendees": [
+          {
+            "id": "abc123",
+            "name":"Mahesh Cheemalapati"
+          },
+          {
+            "id": "abc234",
+            "name": "Krishnaja"
+          }
+        ]
       },
       {
         "id": 8419988,
@@ -28,7 +37,16 @@
         "location": "Catlandia",
         "date": "2020-01-31",
         "time": "7:00 PM",
-        "attendees": []
+        "attendees": [
+          {
+            "id": "abc123",
+            "name":"Mahesh Cheemalapati"
+          },
+          {
+            "id": "abc234",
+            "name": "Krishnaja"
+          }
+        ]
       },
       {
         "id": 4582797,
@@ -43,7 +61,32 @@
         "location": "USA",
         "date": "2020-02-02",
         "time": "1:00 PM",
-        "attendees": []
+        "attendees": [
+          {
+            "id": "abc123",
+            "name":"Mahesh Cheemalapati"
+          },
+          {
+            "id": "abc234",
+            "name": "Krishnaja"
+          },
+          {
+            "id": "abc256",
+            "name":"Casey"
+          },
+          {
+            "id": "abc124",
+            "name":"Chris"
+          },
+          {
+            "id": "abc323",
+            "name":"Tony"
+          },
+          {
+            "id": "abc443",
+            "name":"Landon"
+          }
+        ]
       }
     ]
   }
