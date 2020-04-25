@@ -4,30 +4,30 @@
         "id": 5928101,
         "user": {
           "id": "abc123",
-          "name": "Mahesh"
+          "name": "Mahesh Cheemalapati"
         },
-        "category": "animal welfare",
+        "category": "Pet Show",
         "organizer": "Mahesh",
-        "title": "Cat Cabaret",
+        "title": "Cat Show",
         "description": "Yay felines!",
         "location": "Meow Town",
         "date": "2020-01-03",
-        "time": "2:00",
-        "attendees": []
+        "time": "2:00 PM",
+        "attendees": ["Mahesh Cheemalapati"]
       },
       {
         "id": 8419988,
         "user": {
           "id": "abc123",
-          "name": "Mahesh"
+          "name": "Mahesh Cheemalapati"
         },
-        "category": "animal welfare",
+        "category": "Pet Show",
         "organizer": "Mahesh",
-        "title": "Kitty Cluster",
+        "title": "Purring Cats",
         "description": "Yay cats!",
         "location": "Catlandia",
         "date": "2020-01-31",
-        "time": "7:00",
+        "time": "7:00 PM",
         "attendees": []
       },
       {
@@ -36,13 +36,13 @@
           "id": "abc123",
           "name": "Mahesh"
         },
-        "category": "animal welfare",
-        "organizer": "Mahesh",
+        "category": "Animal Welfare",
+        "organizer": "Mahesh Cheemalapati",
         "title": "Puppy Parade",
         "description": "Yay pups!",
-        "location": "Puptown ",
+        "location": "USA",
         "date": "2020-02-02",
-        "time": "1:00",
+        "time": "1:00 PM",
         "attendees": []
       }
     ]
