@@ -1,15 +1,15 @@
 <template>
   <div>
     <div class="event-header">
-      <span class="eyebrow">@{{ event.time }} on {{ event.date | date }}</span>
+      <span class="eyebrow">{{ event.time }} on {{ event.date | date }}</span>
       <h1 class="title">{{ event.title }}</h1>
       <h5>Organized by {{ event.organizer ? event.organizer.name : '' }}</h5>
       <h5>Category: {{ event.category }}</h5>
     </div>
 
-    <BaseIcon name="map">
+    <base-icon name="map">
       <h2>Location</h2>
-    </BaseIcon>
+    </base-icon>
 
     <address>{{ event.location }}</address>
 
@@ -24,7 +24,7 @@
     </h2>
     <ul class="list-group">
       <li
-        :v-for="(attendee, index) in event.attendees"
+        v-for="(attendee, index) in event.attendees"
         :key="index"
         class="list-item"
       >
@@ -45,12 +45,6 @@ class EventShow extends Vue {
     type: String,
   })
   private id!: string;
-
-  @Prop({
-    required: true,
-    type: Array,
-  })
-  private attendees!: [];
 
   data() {
     return {
