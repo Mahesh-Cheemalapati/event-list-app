@@ -18,13 +18,13 @@ class BaseIcon extends Vue {
   private name!: string;
   @Prop({
     type: [Number, String],
-    required: true,
+    required: false,
     default: 24,
   })
   private width!: number | string;
   @Prop({
     type: [Number, String],
-    required: true,
+    required: false,
     default: 24,
   })
   private height!: number | string;

@@ -1,13 +1,19 @@
 <template>
   <div>
-    <button v-on="$listeners" v-bind="$attrs" class="button" :class="buttonClass">
-      <slot/>
+    <button
+      v-on="$listeners"
+      v-bind="$attrs"
+      class="button"
+      :class="buttonClass"
+    >
+      <slot />
     </button>
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue, Prop } from 'vue-property-decorator';
+
 @Component
 class Button extends Vue {
   //  private inheritAttrs: false,

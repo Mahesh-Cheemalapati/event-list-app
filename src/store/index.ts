@@ -15,6 +15,7 @@ export default new Vuex.Store({
       'community'
     ]
   },
+  getters: {},
   modules: {},
   mutations: {},
   actions: {},
